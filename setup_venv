@@ -1,0 +1,5 @@
+:: Running it once is fine, this just sets up virtual env >> install all modules there
+python3 -m venv env && source ./env/bin/activate && pip install -r requirements.txt
+
+:: Note to rerun the requirements.stxt in case you ever add a mdoule.
+:: Running this multiple time will not make a mess of your setup, dont worry about that bit.
