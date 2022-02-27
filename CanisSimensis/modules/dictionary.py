@@ -7,8 +7,6 @@ from telegram.ext import CallbackContext, CommandHandler, run_async
 
 from CanisSimensis import dispatcher
 
-initialize = 0
-
 @run_async
 def define(update: Update, context: CallbackContext):
     msg = update.effective_message
